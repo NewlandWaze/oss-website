@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Overseas Supply & Services (Rwanda): VIP transport, NGO and institutional mobility, tourism transport and fleet management across Rwanda." />
+<meta name="theme-color" content="#0d2c8f" />
+<title>Overseas Supply & Services (Rwanda)</title>
+<link rel="icon" type="image/png" href="assets/oss-globe.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+<script>try{var t=localStorage.getItem("oss-theme")}catch(e){}document.documentElement.dataset.theme=t||(matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light")</script>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="loader" id="loader"><img src="assets/oss-globe.png" alt="" class="logo-img" /><b id="loadPct">0%</b></div>
+<div class="progress" id="progress"></div>
+<div class="counter" id="counter">01 / 06</div>
+
+<header class="topbar">
+  <div class="container nav-wrap">
+    <a class="brand" href="#top" aria-label="Overseas Supply & Services home">
+      <img src="assets/oss-globe.png" alt="OSS logo" class="logo-img" />
+      <span><strong>OVERSEAS SUPPLY &amp; SERVICES</strong><small>(Rwanda)</small></span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#services">Services</a><a href="#fleet">Fleet</a><a href="#operations">Operations</a><a href="#contact">Contact</a>
+    </nav>
+    <div style="display:flex;gap:8px;align-items:center">
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch light or dark mode">&#9790;</button>
+      <a class="nav-cta secondary-cta" style="background:var(--green)" href="https://wa.me/250788502959" target="_blank" rel="noreferrer">WhatsApp</a>
+      <a class="nav-cta" href="#contact">Request a service</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero" data-section="1">
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow">VIP transport &middot; Kigali, Rwanda</p>
+        <h1>OVERSEAS <span>SUPPLY &amp; SERVICES</span></h1>
+        <p class="country">(RWANDA)</p>
+        <p class="lede">Dependable VIP and institutional transport for NGOs, tour operators, organisations and private clients across Rwanda.</p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="https://wa.me/250788502959" target="_blank" rel="noreferrer">Book a transport quote</a>
+          <a class="secondary-btn" href="#services">See our services</a>
+        </div>
+        <ul class="hero-metrics">
+          <li><strong>Rwanda-wide</strong><span>service coverage</span></li>
+          <li><strong>Multi-year</strong><span>institutional partnerships</span></li>
+          <li><strong>Fleet-managed</strong><span>mileage &amp; maintenance tracked</span></li>
+        </ul>
+      </div>
+      <div class="globe-stage">
+        <canvas id="globeCanvas" role="img" aria-label="Rotating 3D globe"></canvas>
+        <img id="globe" src="assets/oss-globe.png" alt="Overseas Supply & Services globe logo" class="logo-img" />
+        <span class="degrees" id="degrees">000&deg;</span>
+      </div>
+    </div>
+    <span class="scroll-hint">SCROLL &#10140; TURN THE WORLD</span>
+  </section>
+
+  <section class="trust-strip"><div class="container trust-grid"><div>NGOs</div><div>Tour operators</div><div>Hotels</div><div>Business clients</div><div>Institutional partners</div></div></section>
+
+  <section id="about" class="section-space" data-section="2">
+    <div class="container about-grid">
+      <div class="about-copy reveal">
+        <p class="eyebrow">Who we are</p>
+        <h2>Built for growth, trusted for reliability.</h2>
+        <p>Overseas Supply &amp; Services (Rwanda) serves long-term clients, NGO partners, tourism operators and institutions with professional transport and asset support.</p>
+        <p>We combine careful dispatch planning with real fleet management, route coordination and customer-first service that scales with demand.</p>
+      </div>
+      <div class="about-panel reveal">
+        <div class="about-stat"><strong>Kigali</strong><span>headquartered at City Plaza</span></div>
+        <div class="about-stat"><strong>Rwanda-wide</strong><span>coverage</span></div>
+        <div class="about-stat"><strong>Institutional</strong><span>clients served long-term</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="section-space" data-section="3">
+    <div class="container">
+      <div class="section-heading reveal"><p class="eyebrow">What we do</p><h2>Flexible transport support for Rwanda's public and private sectors.</h2></div>
+      <div class="service-grid">
+        <article class="service-card active reveal"><div class="icon">&#10022;</div><h3>Long-term NGO transport</h3><p>Scheduled movement for field missions, staff transfers, project logistics and multi-year operational support.</p></article>
+        <article class="service-card reveal"><div class="icon">&#9678;</div><h3>Tourism transport</h3><p>Comfortable transport for sightseeing, park tours, cultural visits and scenic routes.</p></article>
+        <article class="service-card reveal"><div class="icon">&#9733;</div><h3>Corporate mobility</h3><p>Executive pickups, staff shuttles, hotel transfers and business-route coordination.</p></article>
+        <article class="service-card reveal"><div class="icon">&#9635;</div><h3>Fleet monitoring &amp; maintenance</h3><p>Daily mileage tracking, maintenance planning and oversight to keep every asset reliable.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="fleet" class="fleet section-space" data-section="4">
+    <div class="container">
+      <div class="section-heading split reveal"><div><p class="eyebrow">Fleet</p><h2>Growing assets for a wider, stronger service network.</h2></div><p>Built for tourism, institutional movement and recurring client transport across Rwanda.</p></div>
+      <div class="fleet-grid">
+        <article class="vehicle-card reveal"><div class="vehicle-tag">Executive sedan</div><h3>Luxury saloon</h3><ul><li>Comfort-focused travel</li><li>Business and guest transfers</li><li>Available for prompt dispatch</li></ul></article>
+        <article class="vehicle-card featured reveal"><div class="vehicle-tag">Tour &amp; shuttle</div><h3>Tourist minibus</h3><ul><li>Ideal for day trips</li><li>Comfortable group travel</li><li>Suitable for sightseeing routes</li></ul></article>
+        <article class="vehicle-card reveal"><div class="vehicle-tag">Corporate fleet</div><h3>Staff mobility van</h3><ul><li>NGO and institutional support</li><li>Reliable daily movement</li><li>Route-based daily planning</li></ul></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="operations" class="section-space" data-section="5">
+    <div class="container">
+      <div class="section-heading center reveal"><p class="eyebrow">Operations</p><h2>Back-end efficiency keeps every trip dependable.</h2></div>
+      <div class="process-grid">
+        <div class="step-card reveal"><span>01</span><h3>Daily mileage records</h3><p>Trip logs keep performance, fuel efficiency and route use visible for planning.</p></div>
+        <div class="step-card reveal"><span>02</span><h3>Maintenance tracking</h3><p>Service dates and repair schedules are monitored to minimise downtime.</p></div>
+        <div class="step-card reveal"><span>03</span><h3>Fleet availability</h3><p>We monitor active vehicles, dispatch readiness and route allocation.</p></div>
+        <div class="step-card reveal"><span>04</span><h3>Reporting &amp; planning</h3><p>Operational data supports cost control, route design and long-term growth.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="tourism section-space">
+    <div class="container">
+      <div class="section-heading split reveal"><div><p class="eyebrow">Tourism</p><h2>Explore Rwanda with safe, comfortable transport.</h2></div><p>From city transfers to national park and landscape routes, we move travellers across Rwanda with confidence.</p></div>
+      <div class="tourism-grid">
+        <div class="tour-card reveal"><strong>Kigali City</strong><span>Airport transfers, hotels and city movement</span></div>
+        <div class="tour-card reveal"><strong>Akagera</strong><span>Wildlife and park transfer routes</span></div>
+        <div class="tour-card reveal"><strong>Volcanoes</strong><span>Mountain and gorilla trekking access</span></div>
+        <div class="tour-card reveal"><strong>Lake Kivu</strong><span>Scenic and regional travel support</span></div>
+        <div class="tour-card reveal"><strong>Nyungwe</strong><span>Forest and nature destination transport</span></div>
+        <div class="tour-card reveal"><strong>Cross-border routes</strong><span>Regional coordination for tour clients</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-space">
+    <div class="container">
+      <div class="section-heading center reveal"><p class="eyebrow">Payment options</p><h2>Flexible payment pathways for external clients.</h2></div>
+      <div class="payment-grid">
+        <div class="payment-card reveal"><h3>Bank transfer</h3><p>Ideal for corporate, institutional and invoice-based bookings.</p></div>
+        <div class="payment-card reveal"><h3>Mobile money</h3><p>Convenient for local clients and quick confirmations.</p></div>
+        <div class="payment-card reveal"><h3>Corporate invoice</h3><p>Made for NGOs, agencies and long-term service partners.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section-space" data-section="6">
+    <div class="container contact-grid">
+      <div class="contact-copy reveal">
+        <p class="eyebrow">Talk to us</p>
+        <h2>Ready for your next transport requirement.</h2>
+        <p>Whether you are an NGO, institution, tour operator or private client, we will help you structure the right service and next steps.</p>
+        <div class="contact-meta">
+          <div><span>Address</span><strong>City Plaza Bldg. 1st floor, B.P. 6610 Kigali / Rwanda</strong></div>
+          <div><span>Tel</span><strong>(250) 0788502959</strong></div>
+          <div><span>Email</span><strong>overseassupplyservices@gmail.com</strong></div>
+          <div><span>Website</span><strong>www.overseassupplyservices.com</strong></div>
+          <div><span>Channels</span><div class="social-links"><a href="https://wa.me/250788502959" target="_blank" rel="noreferrer">WhatsApp</a><a href="mailto:overseassupplyservices@gmail.com">Email</a><a href="tel:+250788502959">Call</a></div></div>
+        </div>
+      </div>
+      <form class="quote-form reveal" id="quoteForm">
+        <div class="two-col">
+          <label>Client type<select name="clientType" id="clientType"><option value="institution">Long-term institutional contract</option><option value="external">External individual or company</option><option value="tourism">Tourism / sightseeing</option></select></label>
+          <label>Service needed<select name="service"><option>NGO transport</option><option>Corporate mobility</option><option>Tourism route</option><option>Airport transfer</option><option>Fleet management</option></select></label>
+        </div>
+        <div class="two-col">
+          <label>Full name<input type="text" name="name" placeholder="Your full name" required /></label>
+          <label>Email<input type="email" name="email" placeholder="you@example.com" required /></label>
+        </div>
+        <div class="two-col">
+          <label>Organisation<input type="text" name="organization" placeholder="Company, NGO or institution" /></label>
+          <label>Travel date<input type="date" name="date" required /></label>
+        </div>
+        <div class="two-col">
+          <label>Passengers<input type="number" name="passengers" min="1" max="50" value="4" /></label>
+          <label>Duration (hours)<input type="number" name="hours" min="1" max="24" value="4" /></label>
+        </div>
+        <label>Trip details<textarea name="notes" rows="3" placeholder="Route, destination, special requirements..."></textarea></label>
+        <div class="estimate-box" aria-live="polite"><span>Estimated starting rate</span><strong id="estimateValue">RWF 208,000</strong></div>
+        <div class="form-note" id="formNote"></div>
+        <button type="submit" class="primary-btn block">Submit enquiry</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-wrap">
+    <div class="brand"><img src="assets/oss-globe.png" alt="OSS" /><span><strong style="color:#fff">OVERSEAS SUPPLY &amp; SERVICES</strong><small>(Rwanda)</small></span></div>
+    <div>VIP transport and logistics for Rwanda's institutions, tourists and growing businesses.</div>
+    <div>&copy; 2026 Overseas Supply &amp; Services (Rwanda)</div>
+  </div>
+  <div class="official-contact-strip">
+    <div><strong>Compte:</strong> BK 029610594</div>
+    <div><strong>Address:</strong> City Plaza Bldg. 1st floor, B.P. 6610 Kigali / Rwanda</div>
+    <div><strong>Tel:</strong> (250) 0788502959</div>
+    <div><strong>Email:</strong> overseassupplyservices@gmail.com</div>
+  </div>
+</footer>
+
+<aside class="ai-widget" id="aiWidget">
+  <div class="ai-header" id="aiHeader"><div class="ai-badge">AI</div><strong>Travel concierge</strong></div>
+  <div class="ai-body">
+    <div class="ai-chat" id="aiChat"><div class="chat-bubble system">Hello. I can help with tourism routes, NGO transport, fleet availability and bookings in Rwanda.</div></div>
+    <form id="aiForm" class="ai-form"><input id="aiInput" type="text" placeholder="Ask about tourism, NGOs, fleet..." /><button type="submit">Send</button></form>
+  </div>
+</aside>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="globe.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
